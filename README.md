@@ -1,4 +1,5 @@
-# Instagram Followed Feed Redirector
+# Instagram-Feed-Switcher
+
 
 Firefox WebExtension that runs only on `instagram.com` and redirects the plain Instagram home feed to the `?variant=following` feed.
 For my fellow scatterbrains.
