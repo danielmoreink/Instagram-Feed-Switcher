@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Instagram Followed Feed Redirector",
+  "version": "1.0.4",
+  "description": "Redirects Instagram's home feed to the Following/Gefolgt variant.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "instagram-followed-feed@local"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.instagram.com/*",
+        "https://instagram.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
